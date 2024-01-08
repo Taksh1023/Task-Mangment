@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Management System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+
+    <div class="main-container">
+        <div class="left-section">
+            <!-- User Photo and Options to Change Situation -->
+            <div class="user-section">
+                <!-- User Photo or Upload Image Option -->
+                <div class="user-photo"></div>
+                <br>
+                <!-- Options to Change Situation -->
+                <div class="situation-options">
+                    <span class="situation-option" id="workButton">Work</span>
+                    <br>
+                    <span class="situation-option" id="familyButton">Family</span>
+                    <br>
+                    <span class="situation-option" id="holidayButton">Holiday</span>
+                    <!-- Add more situation options as needed -->
+                </div>
+            </div>
+        </div>
+
+        <div class="right-section">
+            
+            <!-- Today's Date and Day -->
+            <div class="date-section">
+                <h1>Holiday</h1>
+                <p id="currentDate">2023-01-01</p>
+                <p id="currentDay">Monday</p>
+                <!-- Add dynamic JavaScript to update the date and day -->
+            </div>
+            
+            <!-- To-Do List Section -->
+            <div class="todo-section">
+                <ul id="taskList">
+                    <!-- To-Do List Tasks Will Be Displayed Here -->
+                </ul>
+            </div>
+            <!-- Add Task Form -->
+            <div class="add-task-section">
+                <button id="addTaskButton">+</button>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
